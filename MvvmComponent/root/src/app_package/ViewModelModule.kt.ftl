@@ -1,13 +1,13 @@
-package ${packageName}.di.module;
+package ${packageName}.di.module
 
 import android.arch.lifecycle.ViewModel
 import com.guoyang.easymvvm.di.android.ViewModelKey
-import ${packageName}.mvvm.viewmodel.*
 import dagger.Binds
 import dagger.Module
 import dagger.multibindings.IntoMap
 
 /***
+ * 该类主要提供整个module的ViewModel的实例
  * 例如:
  *  @Binds
  *  @IntoMap

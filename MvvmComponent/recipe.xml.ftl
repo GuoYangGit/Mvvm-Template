@@ -15,6 +15,8 @@
     <mkdir at="${projectOut}/src/main/java/${slashedPackageName(packageName)}/mvvm/model/data"/>
     <mkdir at="${projectOut}/src/main/java/${slashedPackageName(packageName)}/mvvm/model/remote" />
     <mkdir at="${projectOut}/src/main/java/${slashedPackageName(packageName)}/mvvm/model/repository" />
+    <mkdir at="${projectOut}/src/main/java/${slashedPackageName(packageName)}/mvvm/view" />
+    <mkdir at="${projectOut}/src/main/java/${slashedPackageName(packageName)}/mvvm/viewmodel" />
     <mkdir at="${projectOut}/src/main/java/${slashedPackageName(packageName)}/core" />
     <mkdir at="${projectOut}/src/main/java/${slashedPackageName(packageName)}/di/component" />
     <mkdir at="${projectOut}/src/main/java/${slashedPackageName(packageName)}/di/module" />
