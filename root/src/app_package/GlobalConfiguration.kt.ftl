@@ -3,7 +3,7 @@ package ${packageName}.core
 import android.app.Application
 import android.content.Context
 import android.support.v4.app.FragmentManager
-import com.guoyang.easymvvm.integration.AppLifecycles
+import com.guoyang.easymvvm.integration.AppLifeCycles
 import com.guoyang.easymvvm.integration.ConfigModule
 
 /***
@@ -12,16 +12,16 @@ import com.guoyang.easymvvm.integration.ConfigModule
  **/
 
 class GlobalConfiguration : ConfigModule {
-    override fun injectAppLifecycle(context: Context, lifecycles: MutableList<AppLifecycles>) {
-        //lifecycles.add(AppLifecyclesImpl())
+    override fun injectAppLifecycle(context: Context, lifeCycles: MutableList<AppLifeCycles>) {
+
     }
 
-    override fun injectActivityLifecycle(context: Context, lifecycles: MutableList<Application.ActivityLifecycleCallbacks>) {
-        //lifecycles.add(ActivityLifecycleCallbacksImpl())
+    override fun injectActivityLifecycle(context: Context, lifeCycles: MutableList<Application.ActivityLifecycleCallbacks>) {
+
     }
 
-    override fun injectFragmentLifecycle(context: Context, lifecycles: MutableList<FragmentManager.FragmentLifecycleCallbacks>) {
-        //lifecycles.add(FragmentLifecycleCallbacksImpl())
+    override fun injectFragmentLifecycle(context: Context, lifeCycles: MutableList<FragmentManager.FragmentLifecycleCallbacks>) {
+
     }
 
 }
